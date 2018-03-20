@@ -5,10 +5,12 @@
 }
 h1{
   font-size: 45px;
+  padding-top: 20px;
 }
-#white {
-  color: white;
+#yellow {
+  color: #2F4E18;
 }
+
 
 body {
     /* background-color: rgba(176, 224, 230); */
@@ -115,6 +117,9 @@ border-color: white;
 margin: 20px 12px 0 12px;
 display: inline-block;
 float: center;
+-ms-transform: scale(1.5, 1.5);
+-webkit-transform: scale(1.5, 1.5);
+transform: scale(1.5, 1.5);
 }
 #listh1{
 width: 250px;
@@ -126,6 +131,9 @@ opacity: 0.8;
 margin: 20px 12px 0 12px;
 display: inline-block;
 float: center;
+-ms-transform: scale(1.5, 1.5);
+-webkit-transform: scale(1.5, 1.5);
+transform: scale(1.5, 1.5);
 }
 #listh2{
 width: 250px;
@@ -137,6 +145,9 @@ opacity: 0.8;
 margin: 20px 12px 0 12px;
 display: inline-block;
 float: center;
+-ms-transform: scale(1.5, 1.5);
+-webkit-transform: scale(1.5, 1.5);
+transform: scale(1.5, 1.5);
 }
 #listh3{
 width: 250px;
@@ -148,6 +159,9 @@ opacity: 0.8;
 margin: 20px 12px 0 12px;
 display: inline-block;
 float: center;
+-ms-transform: scale(1.5, 1.5);
+-webkit-transform: scale(1.5, 1.5);
+transform: scale(1.5, 1.5);
 }
 
 .container {
@@ -159,7 +173,7 @@ float: center;
 }
 .order{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .centered {
@@ -170,4 +184,24 @@ float: center;
     font-size: 30px;
     color: black;
     text-shadow: 0px 0px 4px 	#FFFFFF;
+}
+
+#listh0:hover{
+  width:350px;
+  height:250px;
+}
+
+#listh1:hover{
+  width:350px;
+  height:250px;
+}
+
+#listh2:hover{
+  width:350px;
+  height:250px;
+}
+
+#listh3:hover{
+  width:350px;
+  height:250px;
 }
