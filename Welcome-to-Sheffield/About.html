@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+   <title>About</title>
+  <link rel="stylesheet" type="text/css" href="css/aboutstyles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+ </head>
+
+ <body>
+   <header class="w3-container w3-black w3-text-white">
+     <div class="night">
+     <p>About Us! <br />
+       <small>We are three students of Sheffield Hallam university! All of us had
+       to move away from the cities we grew up in to get here. We know how scary it
+     can be moving to a new place so this is a guide to help you settle into the Steel City! </small></p>
+     </div>
+
+     <div class="w3-bar w3-card-4 w3-black">
+       <a href="#" class="w3-bar-item w3-button w3-border-right">Home</a>
+       <a href="#" class="w3-bar-item w3-button w3-border-right">Family</a>
+       <a href="#" class="w3-bar-item w3-button w3-border-right">Food</a>
+       <a href="#" class="w3-bar-item w3-button w3-border-right">Nightlife</a>
+       <a href="#" class="w3-bar-item w3-button w3-border-right">About</a>
+     </div>
+   </header>
+
+<div class="form">
+
+ <form action="/action_page.php">
+  Name:<br>
+  <input type="text" name="firstname" placeholder="Enter your name">
+  <br>
+  Email:<br>
+  <input type="text" name="email" placeholder="Enter your email">
+  <br>
+  Feedback<br>
+  <textarea name="feedback" rows="10" cols="30" placeholder="Please leave us feedback to help us improve!"></textarea>
+  <br><br>
+  <input type="submit" value="Submit">
+ </form>
+</div>
+
+   <script>
+      $('div').on('click', function() {
+          $(this).toggleClass('show-description');
+      });
+      </script>
+
+
+
+
+
+
+</body>
+</html>
 
