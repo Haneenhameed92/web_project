@@ -1,0 +1,173 @@
+* {
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: bold;
+    text-shadow: 0px 0px 4px 	#FFFFFF;
+}
+h1{
+  font-size: 45px;
+}
+#white {
+  color: white;
+}
+
+body {
+    /* background-color: rgba(176, 224, 230); */
+
+    background: radial-gradient(bottom, rgba(176, 224, 230,1), rgba(176, 224, 230,.4));
+    background: -webkit-radial-gradient(bottom, rgba(176, 224, 230,1), rgba(176, 224, 230,.4));
+    background: -moz-radial-gradient(bottom, rgba(176, 224, 230,1), rgba(176, 224, 230,.4 ));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../Images/sheffield.jpg");
+    background-size: cover;
+}
+
+#top_background {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
+#listh0{
+width: 250px;
+height: 200px;
+border-radius: 50px;
+border-style: solid;
+border-color: white;
+margin: 20px 12px 0 12px;
+display: inline-block;
+float: center;
+}
+#listh1{
+width: 250px;
+height: 200px;
+border-radius: 50px;
+border-style: solid;
+border-color: white;
+opacity: 0.8;
+margin: 20px 12px 0 12px;
+display: inline-block;
+float: center;
+}
+#listh2{
+width: 250px;
+height: 200px;
+border-radius: 50px;
+border-style: solid;
+border-color: white;
+opacity: 0.8;
+margin: 20px 12px 0 12px;
+display: inline-block;
+float: center;
+}
+#listh3{
+width: 250px;
+height: 200px;
+border-radius: 50px;
+border-style: solid;
+border-color: white;
+opacity: 0.8;
+margin: 20px 12px 0 12px;
+display: inline-block;
+float: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline-block;
+float: center;
+}
+.order{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+    text-shadow: 0px 0px 4px 	#FFFFFF;
+}
