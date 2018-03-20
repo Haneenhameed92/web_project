@@ -1,0 +1,74 @@
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px rgba(0,0,0,1);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h2 {
+  text-align: center;
+  margin: -30px 0 50px 0;
+  color: #98AFc7;
+  text-shadow: 1.3px 1.3px rgba(0,0,0,1);
+}
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  background-image: url("https://i.pinimg.com/originals/5b/7e/70/5b7e700465353492603477236eca0962.jpg");
+  background-size: cover;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: -webkit-linear-gradient(right,rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(right,rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  text-align: justify;
+  line-height: 28px;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+div {
+height: 350px;
+background-size: cover;
+position: relative;
+}
+.title {
+float: right;
+}
+.TBC {
+margin: 40px 0 0 0;
+border-radius: 12px;
+background: url("http://bigspoonmylittlespoon.com/wp-content/uploads/2016/02/Twisted-Burger-Company-2.jpg");
+}
+.PHS {
+margin: 40px 0 0 0;
+border-radius: 12px;
+background: url("https://i0.wp.com/independent-sheffield.co.uk/wp-content/uploads/2015/03/PHS_NOV_LR-101.jpeg?resize=1024%2C683");
+}
+.Ma {
+margin: 40px 0 0 0;
+border-radius: 12px;
+background: url("http://4.bp.blogspot.com/-o0h9CK6XObo/UvZVJaJjmOI/AAAAAAAAFQQ/QwbrysHazyA/s1600/IMG_0674.JPG");
+}
+.FB {
+margin: 40px 0 0 0;
+border-radius: 12px;
+background: url("http://www.ourfaveplaces.co.uk/assets/image-cache/venues/eat-drink/Forge/forge-bakehouse-sheffield-2.39d76e67.jpg");
+}
+.BT {
+margin: 40px 0 0 0;
+border-radius: 12px;
+background: url("http://www.godine.co.uk/assets/restaurant/531/Image/14118_image-5.jpg");
+}
+.PV {
+margin: 40px 0 0 0;
+border-radius: 12px;
+background: url("https://sheffieldeats.files.wordpress.com/2012/06/dsc03611.jpg");
+}
+.header {
+height: 100px
+}
